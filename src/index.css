@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body {
+
+    padding: 0;
+    margin: 0;
+
+}
+.text-color-h {
+
+
+    color: #fcbf49;
+}
+
+.text-color-card {
+
+    color: #003049;
+}
+
+.font-forAll{
+
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p-info {
+
+    color:#2b2d42;
+}
+
+.header {
+
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .4s;
+    overflow: hidden;
+    background: transparent; 
+
+}
+
+
+.header-color {
+
+    background: #f77f00;
+    opacity: 96%;
+
+}
+
+.header.header-color a {
+    color: #ffff;
+}
+
+.bg-color-card {
+
+    background: #dad7cd;
+}   
+
+.bg-divs {
+
+    background: rgba(0, 0, 0, 0.2)
+}
+
+
+.img-perfil > img {
+
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+    border: 8px solid #f77f00;
+}
+
+.img-about-me > img {
+
+    width: 700px;
+    border-radius: 3%;
+    box-shadow: 2px 2px 2px black;
+}
+
+.icon-linkedin {
+    color: #0072b1;
+}
+
+.icon-gitHub {
+ 
+    color: #171515 ;
+}
+
+
+
+
+
