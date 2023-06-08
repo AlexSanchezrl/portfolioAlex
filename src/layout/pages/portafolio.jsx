@@ -3,6 +3,7 @@ import { DiJavascript, DiHtml5, DiCss3, DiNodejs, DiGit, DiGithub, DiGithubBadge
 import {FaLinkedin} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import MyCard from '../../components/Card';
+import imgenPersonal from '../../img/meAlex.png'
 
 
 
@@ -54,7 +55,7 @@ function Portfolio() {
 
             <div className='mx-auto lg:mx-0 img-perfil'>
                 
-                <img src="../../src/img/meAlex.png" alt="" />
+                <img src={imgenPersonal} alt="yo" />
 
             </div>
             

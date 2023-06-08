@@ -22,7 +22,9 @@ function App() {
         <Route path="/" element={<Authlayout />}>
 
            <Route path="portfolio" element={<Portfolio />}/>
-                     <Route path="about-me" element={<AboutMe />} />
+
+           
+            <Route path="about-me" element={<AboutMe />} />
 
          </Route>
 
