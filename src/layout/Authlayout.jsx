@@ -2,6 +2,8 @@ import { Outlet } from "react-router-dom"
 import Nav from "./pages/nav"
 import Footer from "./pages/footer"
 import ParticlesBg from "../components/PariclesBg"
+import Portfolio from "./pages/portafolio"
+
 
 
 
@@ -13,6 +15,8 @@ function Authlayout() {
     <ParticlesBg/>
     
     <Nav />
+
+    <Portfolio />
 
     <Outlet />
 
