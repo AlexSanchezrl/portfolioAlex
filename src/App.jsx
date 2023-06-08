@@ -1,41 +1,40 @@
-// import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom"
-// import Authlayout from "./layout/Authlayout"
-// import Portfolio from "./layout/pages/portafolio"
-// import AboutMe from "./layout/pages/AboutMe"
-// import { createHashRouter, RouterProvider } from 'react-router-dom'
+import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom"
+import Authlayout from "./layout/Authlayout"
+import Portfolio from "./layout/pages/portafolio"
+import AboutMe from "./layout/pages/AboutMe"
 
 
 
 
 
 
-// function App() {
-//       return (
-//         <>
 
+function App() {
+      return (
+        <>
 
-//      <BrowserRouter>
+     <BrowserRouter>
       
 
-//      <Routes>
+      <Routes>
 
 
-//        <Route path="/" element={<Authlayout />}>
+        <Route path="/" element={<Authlayout />}>
 
-//           <Route path="portfolio" element={<Portfolio />}/>
-//                     <Route path="about-me" element={<AboutMe />} />
+           <Route path="portfolio" element={<Portfolio />}/>
+                     <Route path="about-me" element={<AboutMe />} />
 
-//         </Route>
+         </Route>
 
-//       </Routes>
+       </Routes>
       
       
       
-//             </BrowserRouter>
+             </BrowserRouter>
 
 
-//     </>
-//       )
-//     }
+     </>
+       )
+     }
 
-// export default App
+export default App

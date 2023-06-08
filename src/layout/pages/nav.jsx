@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Nav() {
 
@@ -25,8 +25,8 @@ function Nav() {
     
     <nav className='navBar flex justify-evenly p-4 m-4'>
 
-        <Link className="font-bold text-center font-forAll text-color-h text-xl hover:text-red-600 transition duration-300" to="http://localhost:5173/portfolio">Principal</Link>
-        <Link className="font-bold text-center font-forAll text-color-h text-xl hover:text-red-600 transition duration-300" to="http://localhost:5173/about-me">About Me</Link>
+        <NavLink className="font-bold text-center font-forAll text-color-h text-xl hover:text-red-600 transition duration-300" to="/portfolio">Principal</NavLink>
+        <NavLink className="font-bold text-center font-forAll text-color-h text-xl hover:text-red-600 transition duration-300" to="/about-me">About Me</NavLink>
 
     </nav>
     
