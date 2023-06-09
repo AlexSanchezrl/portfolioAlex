@@ -4,6 +4,7 @@ import {FaLinkedin} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import MyCard from '../../components/Card';
 import imgenPersonal from '../../img/meAlex.png'
+import portadaCard1 from '../../img/travelAgency-card.png'
 
 
 
@@ -77,7 +78,7 @@ function Portfolio() {
                 <MyCard
                     title='Travel Agency'
                     bodyText=" A travel agency website is essential for providing a comprehensive online presence, facilitating trip planning and booking, offering personalized services, ensuring customer support, and promoting the agency's services to a wide audience."
-                    imgUrl='./src/img/travelAgency-card.png' />               
+                    imgUrl={portadaCard1} />               
 
                 </div>
 
@@ -88,7 +89,7 @@ function Portfolio() {
                 <MyCard
                     title='Travel Agency'
                     bodyText=" A travel agency website is essential for providing a comprehensive online presence, facilitating trip planning and booking, offering personalized services, ensuring customer support, and promoting the agency's services to a wide audience."
-                    imgUrl='./src/img/travelAgency-card.png' />               
+                    imgUrl={portadaCard1} />               
 
                 </div>
 
@@ -99,7 +100,7 @@ function Portfolio() {
                 <MyCard
                     title='Travel Agency'
                     bodyText=" A travel agency website is essential for providing a comprehensive online presence, facilitating trip planning and booking, offering personalized services, ensuring customer support, and promoting the agency's services to a wide audience."
-                    imgUrl='./src/img/travelAgency-card.png' />               
+                    imgUrl={portadaCard1} />               
 
                 </div>
 

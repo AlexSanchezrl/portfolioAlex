@@ -1,4 +1,5 @@
 import React from 'react'
+import imgDeveloper from '../../img/webDeveloper.jpg'
 
 function AboutMe() {
   return (
@@ -21,7 +22,7 @@ function AboutMe() {
 
             <div className='img-about-me mx-auto lg:mx-0 mt-0 lg:mt-8'>
 
-            <img src="../../src/img/webDeveloper.jpg" alt="" />
+            <img src={imgDeveloper} alt="image about me" />
 
             </div>
 
